@@ -3,6 +3,8 @@
 
 https://github.com/nguyen-trinhtk/soudnsing/assets/125171883/c678f218-2d43-4333-9940-c1c209bc3254
 
+https://github.com/nguyen-trinhtk/soudnsing/assets/125171883/b13d0b81-8bdb-47d8-8b9e-ee38c5d1d379
+
 
 <h2>Overview</h2>
 The population of the 65 and older age group is experiencing a gradually growing trend both globally and in Vietnam. Besides physical difficulties, many older people are susceptible to mood and/or anxiety disorders and neurological issues (World Health Organization, 2017). Music has been shown to improve a person’s mental and physical state. Hence, it is plausible to use musical methods to encourage the elderly’s well-being. Hence, I am implementing a karaoke application targeting the Vietnamese elderly population to enhance their health status.
