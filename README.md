@@ -1,4 +1,4 @@
-<h1>Soud n' Sing - Mental enhancing karaoke application for the elderly</h1>
+<h1>Soud n' Sing: A mental- Mental enhancing karaoke application for the elderly</h1>
 
 
 https://github.com/nguyen-trinhtk/soudnsing/assets/125171883/c678f218-2d43-4333-9940-c1c209bc3254
@@ -16,5 +16,5 @@ The population of the 65 and older age group is experiencing a gradually growing
 <p>Soud n' Sing is a singing application designed especially for the elderly to help them entertain, destress, and improve memory. This recreational application aims to help older people resolve their mental health issues with a simple form of music training: karaoke sing-a-long. The target audience of this product would be the 65 or older age group in Vietnam; however, anybody can benefit from this app.</p>
 
 <h2>Components</h2>
-<p>This project includes two parts: the hardware and the software. For the hardware, I have assembled a wristband that assesses users' vocal performances (refer to the video at the top). For the software, I've designed and prototyped an interactive interface on iPad.</p>
+<p>This project includes two parts: the hardware and the software. For the hardware, I have assembled a wristband that assesses users' vocal performances (refer to the video at the top). For the software, I've designed and prototyped an interactive interface on the iPad to enhance readability for senior citizens with impaired or deteriorating eyesights.</p>
 
