@@ -22,17 +22,17 @@ const A22VidBack = () => {
             <Image
               style={[styles.vectorIcon, styles.groupIconLayout]}
               contentFit="cover"
-              source={require("../assets/vector4.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.groupIconLayout]}
               contentFit="cover"
-              source={require("../assets/vector5.png")}
+              source={require("../assets/vector3.png")}
             />
             <Image
               style={[styles.groupIcon1, styles.groupIconLayout]}
               contentFit="cover"
-              source={require("../assets/group5.png")}
+              source={require("../assets/group2.png")}
             />
           </View>
           <View style={[styles.gingCaSGcWrapper, styles.wrapperSpaceBlock]}>
@@ -525,7 +525,7 @@ const styles = StyleSheet.create({
   a22VidBackItem: {
     width: 1195,
     height: 566,
-    backgroundColor: "transparent",
+    backgroundColor: Color.lNBLACK,
     top: 0,
   },
   em: {

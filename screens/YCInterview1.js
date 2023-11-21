@@ -168,7 +168,7 @@ hương`}</Text>
                     styles.ycInterview1InnerLayout,
                   ]}
                   contentFit="cover"
-                  source={require("../assets/curved--refresh4.png")}
+                  source={require("../assets/curved--refresh41.png")}
                 />
               </View>
             </View>
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.nunitoMedium,
     fontWeight: "500",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   cchMngWrapper: {
@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.nunitoMedium,
     fontWeight: "500",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   musicType: {
@@ -364,7 +364,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.nunitoMedium,
     fontWeight: "500",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   instanceParent: {
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.nunitoMedium,
     fontWeight: "500",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   cchMng4: {
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.nunitoMedium,
     fontWeight: "500",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   cchMng5: {
@@ -391,7 +391,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.nunitoMedium,
     fontWeight: "500",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   instanceGroup: {
@@ -523,7 +523,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_51xl,
     lineHeight: 84,
     fontWeight: "700",
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     color: Color.mainBlue,
     display: "flex",
     width: 728,

@@ -33,7 +33,7 @@ const A21bGc = () => {
                 <Image
                   style={[styles.vectorIcon, styles.groupIconLayout]}
                   contentFit="cover"
-                  source={require("../assets/vector7.png")}
+                  source={require("../assets/vector.png")}
                 />
                 <Image
                   style={[styles.vectorIcon1, styles.groupIconLayout]}
@@ -43,7 +43,7 @@ const A21bGc = () => {
                 <Image
                   style={[styles.groupIcon1, styles.groupIconLayout]}
                   contentFit="cover"
-                  source={require("../assets/group6.png")}
+                  source={require("../assets/group1.png")}
                 />
               </View>
               <View style={[styles.gingCaSGcWrapper, styles.wrapperSpaceBlock]}>

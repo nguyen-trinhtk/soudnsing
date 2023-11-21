@@ -83,7 +83,7 @@ const AHt = () => {
               <Image
                 style={[styles.frameChild, styles.aHtLayout]}
                 contentFit="cover"
-                source={require("../assets/rectangle-395318.png")}
+                source={require("../assets/rectangle-3953181.png")}
               />
             </View>
             <View style={styles.frameGroupSpaceBlock}>
@@ -449,7 +449,7 @@ const AHt = () => {
             <Image
               style={styles.frameLayout}
               contentFit="cover"
-              source={require("../assets/curved--home13.png")}
+              source={require("../assets/curved--home1.png")}
             />
             <Image
               style={styles.ellipseIconLayout}
@@ -473,7 +473,7 @@ const AHt = () => {
             <Image
               style={[styles.speakerHngDn, styles.frameLayout]}
               contentFit="cover"
-              source={require("../assets/speaker-hng-dn2.png")}
+              source={require("../assets/speaker-hng-dn.png")}
             />
             <Image
               style={[styles.frameChild5, styles.ellipseIconLayout]}
@@ -507,7 +507,7 @@ const styles = StyleSheet.create({
   },
   conNgTnhTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     lineHeight: 38,
     fontSize: FontSize.size_13xl,
     overflow: "hidden",
@@ -679,15 +679,15 @@ const styles = StyleSheet.create({
     left: "50%",
   },
   cardItem: {
-    backgroundColor: "#e9142a",
+    backgroundColor: Color.colorCrimson,
   },
   cchTypo: {
     width: 212,
     color: Color.black,
-    fontFamily: FontFamily.black,
+    fontFamily: FontFamily.nunitoBlack,
     fontWeight: "900",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     transform: [
       {
         rotate: "90deg",
@@ -708,13 +708,13 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   rectangleView: {
-    backgroundColor: "#c87d55",
+    backgroundColor: Color.colorDarksalmon,
   },
   card1: {
     marginLeft: 44,
   },
   cardChild2: {
-    backgroundColor: "#fec762",
+    backgroundColor: Color.colorGoldenrod_100,
   },
   card2: {
     marginLeft: 44,
@@ -741,7 +741,7 @@ const styles = StyleSheet.create({
   ht1: {
     top: 54,
     left: 208,
-    fontSize: 64,
+    fontSize: FontSize.size_45xl,
     lineHeight: 77,
     fontWeight: "800",
     position: "absolute",

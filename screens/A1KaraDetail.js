@@ -54,7 +54,7 @@ const A1KaraDetail = () => {
                   <Image
                     style={[styles.brokenHeadphones, styles.curvedHeartLayout]}
                     contentFit="cover"
-                    source={require("../assets/broken--headphones3.png")}
+                    source={require("../assets/broken--headphones.png")}
                   />
                   <Text style={[styles.text, styles.aTypo]}>239</Text>
                 </View>
@@ -64,7 +64,7 @@ const A1KaraDetail = () => {
                   <Image
                     style={styles.curvedHeartLayout}
                     contentFit="cover"
-                    source={require("../assets/curved--heart3.png")}
+                    source={require("../assets/curved--heart.png")}
                   />
                   <Text style={[styles.text, styles.aTypo]}>34</Text>
                 </View>
@@ -547,7 +547,7 @@ const A1KaraDetail = () => {
                             styles.duotoneStar122Layout,
                           ]}
                           contentFit="cover"
-                          source={require("../assets/broken--headphones.png")}
+                          source={require("../assets/broken--headphones1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>
                           1200
@@ -564,7 +564,7 @@ const A1KaraDetail = () => {
                         <Image
                           style={styles.duotoneStar122Layout}
                           contentFit="cover"
-                          source={require("../assets/curved--heart.png")}
+                          source={require("../assets/curved--heart1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>77</Text>
                       </View>
@@ -618,7 +618,7 @@ const A1KaraDetail = () => {
                             styles.duotoneStar122Layout,
                           ]}
                           contentFit="cover"
-                          source={require("../assets/broken--headphones.png")}
+                          source={require("../assets/broken--headphones1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>
                           1200
@@ -635,7 +635,7 @@ const A1KaraDetail = () => {
                         <Image
                           style={styles.duotoneStar122Layout}
                           contentFit="cover"
-                          source={require("../assets/curved--heart.png")}
+                          source={require("../assets/curved--heart1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>77</Text>
                       </View>
@@ -689,7 +689,7 @@ const A1KaraDetail = () => {
                             styles.duotoneStar122Layout,
                           ]}
                           contentFit="cover"
-                          source={require("../assets/broken--headphones.png")}
+                          source={require("../assets/broken--headphones1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>
                           1200
@@ -706,7 +706,7 @@ const A1KaraDetail = () => {
                         <Image
                           style={styles.duotoneStar122Layout}
                           contentFit="cover"
-                          source={require("../assets/curved--heart.png")}
+                          source={require("../assets/curved--heart1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>77</Text>
                       </View>
@@ -760,7 +760,7 @@ const A1KaraDetail = () => {
                             styles.duotoneStar122Layout,
                           ]}
                           contentFit="cover"
-                          source={require("../assets/broken--headphones.png")}
+                          source={require("../assets/broken--headphones1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>
                           1200
@@ -777,7 +777,7 @@ const A1KaraDetail = () => {
                         <Image
                           style={styles.duotoneStar122Layout}
                           contentFit="cover"
-                          source={require("../assets/curved--heart.png")}
+                          source={require("../assets/curved--heart1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>77</Text>
                       </View>
@@ -831,7 +831,7 @@ const A1KaraDetail = () => {
                             styles.duotoneStar122Layout,
                           ]}
                           contentFit="cover"
-                          source={require("../assets/broken--headphones.png")}
+                          source={require("../assets/broken--headphones1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>
                           1200
@@ -848,7 +848,7 @@ const A1KaraDetail = () => {
                         <Image
                           style={styles.duotoneStar122Layout}
                           contentFit="cover"
-                          source={require("../assets/curved--heart.png")}
+                          source={require("../assets/curved--heart1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>77</Text>
                       </View>
@@ -902,7 +902,7 @@ const A1KaraDetail = () => {
                             styles.duotoneStar122Layout,
                           ]}
                           contentFit="cover"
-                          source={require("../assets/broken--headphones.png")}
+                          source={require("../assets/broken--headphones1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>
                           1200
@@ -919,7 +919,7 @@ const A1KaraDetail = () => {
                         <Image
                           style={styles.duotoneStar122Layout}
                           contentFit="cover"
-                          source={require("../assets/curved--heart.png")}
+                          source={require("../assets/curved--heart1.png")}
                         />
                         <Text style={[styles.text15, styles.htLiTypo]}>77</Text>
                       </View>
@@ -1083,7 +1083,7 @@ const styles = StyleSheet.create({
   },
   htLiTypo: {
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     fontFamily: FontFamily.nunitoRegular,
     textAlign: "left",
     color: Color.white,
@@ -1130,7 +1130,7 @@ const styles = StyleSheet.create({
   },
   thngQuVit: {
     color: Color.white,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     overflow: "hidden",
     alignSelf: "stretch",
     lineHeight: 60,
@@ -1220,7 +1220,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_16xl,
     lineHeight: 42,
     color: Color.white,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     overflow: "hidden",
     alignSelf: "stretch",
   },
@@ -1242,7 +1242,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_13xl,
     lineHeight: 38,
     color: Color.white,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     overflow: "hidden",
     alignSelf: "stretch",
   },
@@ -1362,7 +1362,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_31xl,
   },
   text33: {
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
   },
   imSCaContainer: {
     fontFamily: FontFamily.sFProDisplay,
@@ -1471,7 +1471,7 @@ const styles = StyleSheet.create({
   thngQuVit1: {
     width: 735,
     color: Color.white,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     overflow: "hidden",
     alignSelf: "stretch",
     lineHeight: 60,

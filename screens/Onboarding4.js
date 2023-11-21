@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     display: "flex",
     color: Color.mainBlue,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     fontWeight: "700",
     position: "absolute",
   },

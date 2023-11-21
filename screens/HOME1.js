@@ -104,7 +104,7 @@ const HOME1 = () => {
               <Image
                 style={styles.curvedHome1Layout}
                 contentFit="cover"
-                source={require("../assets/curved--home12.png")}
+                source={require("../assets/curved--home11.png")}
               />
               <Image
                 style={styles.ellipseIconLayout}
@@ -120,7 +120,7 @@ const HOME1 = () => {
                   <Image
                     style={styles.shapeIcon}
                     contentFit="cover"
-                    source={require("../assets/shape.png")}
+                    source={require("../assets/shape1.png")}
                   />
                   <View style={[styles.wrapper, styles.curvedParentFlexBox]}>
                     <Text style={[styles.text, styles.htTypo1]}>01</Text>
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
     color: Color.black,
     lineHeight: 58,
     fontSize: FontSize.nold_size,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
   },
   frameParentSpaceBlock: {
     marginLeft: 40,
@@ -301,7 +301,7 @@ const styles = StyleSheet.create({
     color: Color.black,
     lineHeight: 58,
     fontSize: FontSize.nold_size,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     width: 288,
   },
   frameParent3: {
@@ -356,7 +356,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_mini,
     lineHeight: 15,
     color: Color.white,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     textAlign: "center",
     fontWeight: "700",
   },

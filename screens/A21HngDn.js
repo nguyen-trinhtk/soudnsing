@@ -29,17 +29,17 @@ GIỌNG CA SĨ GỐC`}</Text>
               <Image
                 style={styles.groupIcon}
                 contentFit="cover"
-                source={require("../assets/group2.png")}
+                source={require("../assets/group21.png")}
               />
               <Image
                 style={[styles.vectorIcon, styles.vectorIconLayout]}
                 contentFit="cover"
-                source={require("../assets/vector2.png")}
+                source={require("../assets/vector4.png")}
               />
               <Image
                 style={[styles.vectorIcon1, styles.vectorIconLayout]}
                 contentFit="cover"
-                source={require("../assets/vector3.png")}
+                source={require("../assets/vector5.png")}
               />
               <Image
                 style={[styles.groupIcon1, styles.vectorIconLayout]}
@@ -57,7 +57,7 @@ sĩ gốc`}</Text>
               <Image
                 style={styles.curvedRefreshLayout}
                 contentFit="cover"
-                source={require("../assets/broken--hourglass4.png")}
+                source={require("../assets/broken--hourglass.png")}
               />
               <View style={[styles.bQuaNhcDoWrapper, styles.wrapperSpaceBlock]}>
                 <Text style={styles.bQuaNhc}>{`Bỏ qua
@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
     color: Color.black,
     fontWeight: "600",
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
     fontFamily: FontFamily.sFProDisplay,
   },
@@ -411,11 +411,11 @@ const styles = StyleSheet.create({
   },
   thngQuVit: {
     fontWeight: "700",
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     textAlign: "left",
     marginLeft: 14,
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     color: Color.white,
     overflow: "hidden",
     flex: 1,
@@ -454,7 +454,7 @@ const styles = StyleSheet.create({
   frameWrapper: {
     top: 24,
     left: 243,
-    backgroundColor: Color.colorDarkslategray_200,
+    backgroundColor: Color.grey4,
     width: 899,
     height: 106,
     paddingHorizontal: Padding.p_11xl,
