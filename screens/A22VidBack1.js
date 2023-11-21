@@ -20,17 +20,17 @@ const A22VidBack1 = () => {
             <Image
               style={[styles.vectorIcon, styles.iconGroupLayout]}
               contentFit="cover"
-              source={require("../assets/vector4.png")}
+              source={require("../assets/vector2.png")}
             />
             <Image
               style={[styles.vectorIcon1, styles.iconGroupLayout]}
               contentFit="cover"
-              source={require("../assets/vector5.png")}
+              source={require("../assets/vector3.png")}
             />
             <Image
               style={[styles.groupIcon1, styles.iconGroupLayout]}
               contentFit="cover"
-              source={require("../assets/group5.png")}
+              source={require("../assets/group2.png")}
             />
           </View>
           <View style={[styles.gingCaSGcWrapper, styles.wrapperSpaceBlock]}>

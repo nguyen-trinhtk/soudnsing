@@ -43,17 +43,17 @@ const A21dNg = () => {
                     <Image
                       style={styles.duotoneStar1}
                       contentFit="cover"
-                      source={require("../assets/duotone--star17.png")}
+                      source={require("../assets/duotone--star171.png")}
                     />
                     <Image
                       style={styles.duotoneStar1}
                       contentFit="cover"
-                      source={require("../assets/duotone--star17.png")}
+                      source={require("../assets/duotone--star171.png")}
                     />
                     <Image
                       style={styles.duotoneStar1}
                       contentFit="cover"
-                      source={require("../assets/duotone--star17.png")}
+                      source={require("../assets/duotone--star171.png")}
                     />
                   </View>
                 </View>
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   },
   text3Typo: {
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "left",
     color: Color.white,
   },
@@ -257,7 +257,7 @@ const styles = StyleSheet.create({
   },
   htLiTypo: {
     lineHeight: 44,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
     fontWeight: "600",
     fontFamily: FontFamily.sFProDisplay,
@@ -449,7 +449,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_11xl,
   },
   text4: {
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
   },
   xpHng3Container: {
     fontWeight: "700",
@@ -580,7 +580,7 @@ const styles = StyleSheet.create({
     height: 73,
   },
   thngQuVit: {
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     marginLeft: 14,
     fontWeight: "700",
     overflow: "hidden",
@@ -625,7 +625,7 @@ const styles = StyleSheet.create({
   frameWrapper3: {
     top: 24,
     left: 243,
-    backgroundColor: Color.colorDarkslategray_200,
+    backgroundColor: Color.grey4,
     width: 899,
     height: 106,
     paddingHorizontal: Padding.p_11xl,

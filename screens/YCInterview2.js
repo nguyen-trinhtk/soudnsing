@@ -92,7 +92,7 @@ const YCInterview2 = () => {
                 <Image
                   style={styles.frameChildLayout}
                   contentFit="cover"
-                  source={require("../assets/curved--refresh5.png")}
+                  source={require("../assets/curved--refresh51.png")}
                 />
               </View>
             </View>
@@ -215,9 +215,9 @@ const styles = StyleSheet.create({
     width: 254,
     color: Color.black,
     lineHeight: 48,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     fontWeight: "700",
     alignSelf: "stretch",
     transform: [
@@ -364,7 +364,7 @@ const styles = StyleSheet.create({
     display: "flex",
     width: 728,
     textAlign: "center",
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     fontWeight: "700",
     justifyContent: "center",
     alignItems: "center",

@@ -49,17 +49,17 @@ const A21cKtQu = () => {
                     <Image
                       style={styles.duotoneStar1}
                       contentFit="cover"
-                      source={require("../assets/duotone--star18.png")}
+                      source={require("../assets/duotone--star181.png")}
                     />
                     <Image
                       style={styles.duotoneStar1}
                       contentFit="cover"
-                      source={require("../assets/duotone--star18.png")}
+                      source={require("../assets/duotone--star181.png")}
                     />
                     <Image
                       style={styles.duotoneStar1}
                       contentFit="cover"
-                      source={require("../assets/duotone--star18.png")}
+                      source={require("../assets/duotone--star181.png")}
                     />
                   </View>
                 </View>
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
   ngTiVTypo: {
     lineHeight: 44,
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     fontFamily: FontFamily.sFProDisplay,
   },
   trNhCa: {
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
   chLuKt: {
     color: Color.mainYellow,
     fontWeight: "600",
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
   },
   chLuKtQuWrapper: {
@@ -293,7 +293,7 @@ const styles = StyleSheet.create({
   },
   ngTiV: {
     fontWeight: "600",
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     textAlign: "center",
     color: Color.white,
   },

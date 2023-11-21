@@ -36,7 +36,7 @@ const A21KaraokeMicro = () => {
             <Image
               style={styles.frameItem}
               contentFit="cover"
-              source={require("../assets/group-5386.png")}
+              source={require("../assets/group-53861.png")}
             />
           </View>
           <Text style={styles.nCa}>Đơn ca</Text>
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
   a21KaraokeMicroChild: {
     display: "none",
-    backgroundColor: "transparent",
+    backgroundColor: Color.lNBLACK,
     left: 0,
     width: 1194,
     bottom: 0,
@@ -274,10 +274,10 @@ const styles = StyleSheet.create({
     height: 73,
   },
   thngQuVit: {
-    fontSize: FontSize.black_size,
+    fontSize: FontSize.bold_size,
     lineHeight: 48,
     fontWeight: "700",
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     textAlign: "left",
     marginLeft: 14,
     color: Color.white,
@@ -314,7 +314,7 @@ const styles = StyleSheet.create({
   frameView: {
     top: 24,
     left: 243,
-    backgroundColor: Color.colorDarkslategray_200,
+    backgroundColor: Color.grey4,
     width: 899,
     height: 106,
     justifyContent: "space-between",

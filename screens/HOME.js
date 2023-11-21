@@ -18,7 +18,7 @@ const HOME = () => {
               <Image
                 style={styles.curvedHome1Layout}
                 contentFit="cover"
-                source={require("../assets/curved--home12.png")}
+                source={require("../assets/curved--home121.png")}
               />
               <Image
                 style={styles.frameLayout}
@@ -34,7 +34,7 @@ const HOME = () => {
                   <Image
                     style={styles.shapeIcon}
                     contentFit="cover"
-                    source={require("../assets/shape.png")}
+                    source={require("../assets/shape1.png")}
                   />
                   <View style={[styles.wrapper, styles.curvedParentFlexBox]}>
                     <Text style={[styles.text, styles.htTypo1]}>01</Text>
@@ -53,7 +53,7 @@ const HOME = () => {
               <Image
                 style={[styles.speakerHngDn, styles.curvedHome1Layout]}
                 contentFit="cover"
-                source={require("../assets/speaker-hng-dn1.png")}
+                source={require("../assets/speaker-hng-dn11.png")}
               />
               <Image
                 style={[styles.frameInner, styles.frameLayout]}
@@ -146,7 +146,7 @@ const HOME = () => {
               <Image
                 style={styles.rectangleLayout}
                 contentFit="cover"
-                source={require("../assets/frame-57.png")}
+                source={require("../assets/frame-571.png")}
               />
             </View>
             <Text style={[styles.ht, styles.htTypo]}>Cài đặt</Text>
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     color: Color.black,
     lineHeight: 58,
     fontSize: FontSize.nold_size,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
   },
   frameParentSpaceBlock: {
     marginLeft: 40,
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.size_mini,
     lineHeight: 15,
     color: Color.white,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     textAlign: "center",
     fontWeight: "700",
   },
@@ -384,7 +384,7 @@ const styles = StyleSheet.create({
     color: Color.black,
     lineHeight: 58,
     fontSize: FontSize.nold_size,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     width: 288,
   },
   frameParent4: {

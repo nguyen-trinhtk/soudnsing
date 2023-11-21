@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     left: "21.32%",
     fontSize: FontSize.size_11xl,
     lineHeight: 36,
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.nold,
     justifyContent: "center",
     alignItems: "center",
     display: "flex",
